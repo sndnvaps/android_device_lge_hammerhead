@@ -695,6 +695,291 @@
       mvno_type="spn"
   />
 
+  <apn carrier="HOT mobile Internet"
+      mcc="204"
+      mnc="04"
+      apn="net.hotm"
+      type="default,supl"
+      mvno_match_data="HOT mobile"
+      mvno_type="spn"
+  />
+
+  <apn carrier="HOT mobile MMS"
+      mcc="204"
+      mnc="04"
+      apn="mms.hotm"
+      mmsc="http://mms.hotmobile.co.il"
+      mmsproxy="80.246.131.99"
+      mmsport="80"
+      type="mms"
+      mvno_match_data="HOT mobile"
+      mvno_type="spn"
+  />
+
+  <apn carrier="UPC mobiel internet"
+      mcc="204"
+      mnc="08"
+      apn="internet.nl.upcmobile.com"
+      type="default,supl"
+      mvno_match_data="2040807500"
+      mvno_type="imsi"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="UPC MMS"
+      mcc="204"
+      mnc="08"
+      apn="mms.nl.upcmobile.com"
+      mmsc="http://mms.nl.upcmobile.com:8080/servlets/mms"
+      mmsproxy="62.179.127.18"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="2040807500"
+      mvno_type="imsi"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="UPC mobiel internet"
+      mcc="204"
+      mnc="08"
+      apn="internet.nl.upcmobile.com"
+      type="default,supl"
+      mvno_match_data="2040807501"
+      mvno_type="imsi"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="UPC MMS"
+      mcc="204"
+      mnc="08"
+      apn="mms.nl.upcmobile.com"
+      mmsc="http://mms.nl.upcmobile.com:8080/servlets/mms"
+      mmsproxy="62.179.127.18"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="2040807501"
+      mvno_type="imsi"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="UPC mobiel internet"
+      mcc="204"
+      mnc="08"
+      apn="internet.nl.upcmobile.com"
+      type="default,supl"
+      mvno_match_data="2040807502"
+      mvno_type="imsi"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="UPC MMS"
+      mcc="204"
+      mnc="08"
+      apn="mms.nl.upcmobile.com"
+      mmsc="http://mms.nl.upcmobile.com:8080/servlets/mms"
+      mmsproxy="62.179.127.18"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="2040807502"
+      mvno_type="imsi"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="UPC mobiel internet"
+      mcc="204"
+      mnc="08"
+      apn="internet.nl.upcmobile.com"
+      type="default,supl"
+      mvno_match_data="2040807503"
+      mvno_type="imsi"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="UPC MMS"
+      mcc="204"
+      mnc="08"
+      apn="mms.nl.upcmobile.com"
+      mmsc="http://mms.nl.upcmobile.com:8080/servlets/mms"
+      mmsproxy="62.179.127.18"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="2040807503"
+      mvno_type="imsi"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="UPC mobiel internet"
+      mcc="204"
+      mnc="08"
+      apn="internet.nl.upcmobile.com"
+      type="default,supl"
+      mvno_match_data="2040807504"
+      mvno_type="imsi"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="UPC MMS"
+      mcc="204"
+      mnc="08"
+      apn="mms.nl.upcmobile.com"
+      mmsc="http://mms.nl.upcmobile.com:8080/servlets/mms"
+      mmsproxy="62.179.127.18"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="2040807504"
+      mvno_type="imsi"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="upcnet"
+      mcc="204"
+      mnc="08"
+      apn="internet.ch.upcmobile.com"
+      type="default,supl"
+      mvno_match_data="2040807505"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="upcmms"
+      mcc="204"
+      mnc="08"
+      apn="mms.ch.upcmobile.com"
+      mmsc="http://mms.ch.upcmobile.com:8080/servlets/mms"
+      mmsproxy="62.179.127.18"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="2040807505"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="upcnet"
+      mcc="204"
+      mnc="08"
+      apn="internet.ch.upcmobile.com"
+      type="default,supl"
+      mvno_match_data="2040807506"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="upcmms"
+      mcc="204"
+      mnc="08"
+      apn="mms.ch.upcmobile.com"
+      mmsc="http://mms.ch.upcmobile.com:8080/servlets/mms"
+      mmsproxy="62.179.127.18"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="2040807506"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="upcnet"
+      mcc="204"
+      mnc="08"
+      apn="internet.ch.upcmobile.com"
+      type="default,supl"
+      mvno_match_data="2040807507"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="upcmms"
+      mcc="204"
+      mnc="08"
+      apn="mms.ch.upcmobile.com"
+      mmsc="http://mms.ch.upcmobile.com:8080/servlets/mms"
+      mmsproxy="62.179.127.18"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="2040807507"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="upcnet"
+      mcc="204"
+      mnc="08"
+      apn="internet.ch.upcmobile.com"
+      type="default,supl"
+      mvno_match_data="2040807508"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="upcmms"
+      mcc="204"
+      mnc="08"
+      apn="mms.ch.upcmobile.com"
+      mmsc="http://mms.ch.upcmobile.com:8080/servlets/mms"
+      mmsproxy="62.179.127.18"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="2040807508"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="upcnet"
+      mcc="204"
+      mnc="08"
+      apn="internet.ch.upcmobile.com"
+      type="default,supl"
+      mvno_match_data="2040807509"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="upcmms"
+      mcc="204"
+      mnc="08"
+      apn="mms.ch.upcmobile.com"
+      mmsc="http://mms.ch.upcmobile.com:8080/servlets/mms"
+      mmsproxy="62.179.127.18"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="2040807509"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="UPC mobiel internet"
+      mcc="204"
+      mnc="08"
+      apn="internet.nl.upcmobile.com"
+      type="default,supl"
+      mvno_match_data="204080751"
+      mvno_type="imsi"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="UPC MMS"
+      mcc="204"
+      mnc="08"
+      apn="mms.nl.upcmobile.com"
+      mmsc="http://mms.nl.upcmobile.com:8080/servlets/mms"
+      mmsproxy="62.179.127.18"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="204080751"
+      mvno_type="imsi"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="upcnet"
+      mcc="204"
+      mnc="08"
+      apn="internet.ch.upcmobile.com"
+      type="default,supl"
+      mvno_match_data="204080752"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="upcmms"
+      mcc="204"
+      mnc="08"
+      apn="mms.ch.upcmobile.com"
+      mmsc="http://mms.ch.upcmobile.com:8080/servlets/mms"
+      mmsproxy="62.179.127.18"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="204080752"
+      mvno_type="imsi"
+  />
+
   <apn carrier="Telfort Internet"
       mcc="204"
       mnc="12"
@@ -1353,16 +1638,46 @@
       mvno_match_data="12"
   />
 
+  <apn carrier="4G La Poste Mobile"
+      mcc="208"
+      mnc="10"
+      apn=""
+      type="ia"
+      mvno_match_data="4C"
+      mvno_type="gid"
+  />
+
+  <apn carrier="4G La Poste Mobile"
+      mcc="208"
+      mnc="10"
+      apn="sl2sfr"
+      mmsc="http://mms1"
+      mmsproxy="010.143.156.003"
+      mmsport="8080"
+      type="default,supl,mms"
+      mvno_match_data="4C"
+      mvno_type="gid"
+  />
+
   <apn carrier="WEB La Poste Mobile"
       mcc="208"
       mnc="10"
       proxy="192.168.21.3"
       port="8080"
-      apn="sl2sfr"
+      apn="wapdebitel"
+      type="default,supl"
+      mvno_match_data="4C"
+      mvno_type="gid"
+  />
+
+  <apn carrier="MMS La Poste Mobile"
+      mcc="208"
+      mnc="10"
+      apn="mmsdebitel"
       mmsc="http://mmsdebitel"
       mmsproxy="10.143.156.3"
       mmsport="8080"
-      type="default,mms,supl"
+      type="mms"
       mvno_match_data="4C"
       mvno_type="gid"
   />
@@ -1892,8 +2207,6 @@
       apn="telefonica.es"
       user="telefonica"
       password="telefonica"
-      proxy="10.138.255.133"
-      port="8080"
       mmsc="http://mms.movistar.com"
       mmsproxy="10.138.255.5"
       mmsport="8080"
@@ -2028,6 +2341,13 @@
       mmsproxy="217.18.32.181"
       mmsport="8080"
       type="default,supl,mms"
+  />
+
+  <apn carrier="Jazztel Internet"
+      mcc="214"
+      mnc="21"
+      apn=""
+      type="ia"
   />
 
   <apn carrier="Jazztel Internet"
@@ -2242,14 +2562,11 @@
       type="default,supl"
   />
 
-  <apn carrier="mtel"
+  <apn carrier="mtelgprs"
       mcc="218"
       mnc="05"
-      apn="mtelgprs1"
-      proxy="192.168.61.10"
-      port="80"
-      authtype="0"
-      type="default,supl,agps,fota,dun"
+      apn="3g1"
+      type="default,supl"
   />
 
   <apn carrier="mtelmms"
@@ -2258,25 +2575,27 @@
       apn="mtelmms"
       mmsc="http://mmsc.mtel.ba/mms/wapenc"
       mmsproxy="192.168.61.11"
-      mmsport="8080"
+      mmsport="80"
       type="mms"
   />
 
-  <apn carrier="Bh Mobile"
+  <apn carrier="BHMobileInternet"
       mcc="218"
       mnc="90"
       apn="active.bhmobile.ba"
       type="default,supl"
+      protocol="IPV4V6"
   />
 
   <apn carrier="BHMobileMMS"
       mcc="218"
       mnc="90"
       apn="mms.bhmobile.ba"
-      mmsc="http://mms.bhmobile.ba/cmmsc/post"
+      mmsc="http://mms.bhmobile.ba/servlets/mms"
       mmsproxy="195.222.56.41"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
   />
 
   <apn carrier="T-Mobile MMS"
@@ -3000,6 +3319,27 @@
       type="mms"
   />
 
+  <apn carrier="upcnet"
+      mcc="228"
+      mnc="53"
+      apn="internet.ch.upcmobile.com"
+      type="default,supl"
+      mvno_match_data="22853xxxxxxxxxx"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="upcmms"
+      mcc="228"
+      mnc="53"
+      apn="mms.ch.upcmobile.com"
+      mmsc="http://mms.ch.upcmobile.com:8080/servlets/mms"
+      mmsproxy="62.179.127.18"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="22853xxxxxxxxxx"
+      mvno_type="imsi"
+  />
+
   <apn carrier="T-Mobile CZ"
       mcc="230"
       mnc="01"
@@ -3167,10 +3507,10 @@
       type="ia"
   />
 
-  <apn carrier="T-Mobile Internet"
+  <apn carrier="T-Mobile LTE"
       mcc="232"
       mnc="03"
-      apn="gprsinternet"
+      apn="internet.t-mobile.at"
       user="t-mobile"
       password="tm"
       authtype="1"
@@ -3279,11 +3619,22 @@
       type="mms"
   />
 
-  <apn carrier="yesss!"
+  <apn carrier="Internet"
       mcc="232"
       mnc="12"
-      apn="web.yesss.at"
+      apn="webapn.at"
       type="default,supl"
+  />
+
+  <apn carrier="UPC mobiles Internet"
+      mcc="232"
+      mnc="13"
+      apn="Internet.at.upcmobile.com"
+      type="default"
+      mvno_type="imsi"
+      mvno_match_data="23213xxxxxxxxxx"
+      protocol="IP"
+      authtype="0"
   />
 
   <apn carrier="UBIQUISYS"
@@ -6018,8 +6369,6 @@
       user="vodafone"
       password="vodafone"
       authtype="1"
-      proxy="iproxy.vodafone.pt"
-      port="80"
       mmsc="http://mms.vodafone.pt/servlets/mms"
       mmsproxy="iproxy.vodafone.pt"
       mmsport="80"
@@ -6032,39 +6381,6 @@
       apn="internet.vodafone.pt"
       authtype="0"
       type="dun"
-  />
-
-  <apn carrier="ZON Internet"
-      mcc="268"
-      mnc="01"
-      apn=""
-      type="ia"
-      mvno_match_data="ZON"
-      mvno_type="spn"
-  />
-
-  <apn carrier="ZON Internet"
-      mcc="268"
-      mnc="01"
-      apn="internet.zon.pt"
-      type="default,supl"
-      mvno_match_data="ZON"
-      mvno_type="spn"
-  />
-
-  <apn carrier="ZON MMS"
-      mcc="268"
-      mnc="01"
-      apn="vas.zon.pt"
-      user="vas"
-      password="vas"
-      authtype="1"
-      mmsc="http://mms/servlets/mms"
-      mmsproxy="213.30.27.63"
-      mmsport="8799"
-      type="mms"
-      mvno_match_data="ZON"
-      mvno_type="spn"
   />
 
   <apn carrier="PortalOptimus"
@@ -6430,22 +6746,23 @@
       type="mms"
   />
 
-  <apn carrier="GPRS GLOBUL"
+  <apn carrier="Telenor Internet"
       mcc="284"
       mnc="05"
-      apn="globul"
+      apn="telenorbg"
       authtype="1"
       proxy="192.168.88.11"
       port="8004"
       type="default,supl"
   />
 
-  <apn carrier="GLOBUL MMS GPRS"
+  <apn carrier="Telenor MMS"
       mcc="284"
       mnc="05"
-      apn="mms.globul.bg"
+      apn="mms"
       user="mms"
-      mmsc="http://mmsc1.mms.globul.bg:8002"
+      authtype="1"
+      mmsc="http://mmsc"
       mmsproxy="192.168.87.11"
       mmsport="8004"
       type="mms"
@@ -6746,7 +7063,7 @@
       mvno_type="gid"
   />
 
-  <apn carrier="PC mobile"
+  <apn carrier="Mobile Internet"
       mcc="302"
       mnc="220"
       apn="sp.mb.com"
@@ -6756,15 +7073,6 @@
       mmsport="80"
       mvno_match_data="50"
       mvno_type="gid"
-  />
-
-  <apn carrier="Tethered Mobile Internet"
-      mcc="302"
-      mnc="220"
-      apn="isp.mb.com"
-      type="dun"
-      mvno_type="gid"
-      mvno_match_data="50"
   />
 
   <apn carrier="Mobile Internet"
@@ -6777,24 +7085,6 @@
        mmsport="80"
        mvno_type="gid"
        mvno_match_data="4D4F"
-  />
-
-  <apn carrier="Tethered Mobile Internet"
-      mcc="302"
-      mnc="220"
-      apn="isp.mb.com"
-      type="dun"
-      mvno_type="gid"
-      mvno_match_data="4D4F"
-  />
-
-  <apn carrier="TELUS ISP"
-      mcc="302"
-      mnc="220"
-      apn="isp.telus.com"
-      type="dun"
-      mvno_type="gid"
-      mvno_match_data="54"
   />
 
   <apn carrier="TELUS"
@@ -6869,31 +7159,6 @@
       type="default,supl"
   />
 
-  <apn carrier="Fido Tethering"
-      mcc="302"
-      mnc="370"
-      apn="ltedata.apn"
-      type="dun"
-      mvno_match_data="DD"
-      mvno_type="gid"
-      protocol="IPV4V6"
-      roaming_protocol="IP"
-  />
-
-  <apn carrier="Fido Internet"
-      mcc="302"
-      mnc="370"
-      apn="ltemobile.apn"
-      type="default,mms,agps,supl,fota,hipri"
-      mmsproxy="mmsproxy.fido.ca"
-      mmsc="http://mms.fido.ca"
-      mmsport="80"
-      mvno_match_data="DD"
-      mvno_type="gid"
-      protocol="IPV4V6"
-      roaming_protocol="IP"
-  />
-
   <apn carrier="MTS"
       mcc="302"
       mnc="370"
@@ -6906,17 +7171,6 @@
       roaming_protocol="IPV4V6"
       mvno_match_data="2C"
       mvno_type="gid"
-  />
-
-  <apn carrier="MTS Tethering S"
-      mcc="302"
-      mnc="370"
-      apn="internet.mts"
-      type="dun"
-      protocol="IPV4V6"
-      roaming_protocol="IP"
-      mvno_type="gid"
-      mvno_match_data="2C"
   />
 
   <apn carrier="Fido LTE"
@@ -6995,17 +7249,6 @@
       mvno_type="gid"
   />
 
-  <apn carrier="MTS Tethering"
-      mcc="302"
-      mnc="660"
-      apn="internet.mts"
-      type="dun"
-      protocol="IPV4V6"
-      roaming_protocol="IP"
-      mvno_type="gid"
-      mvno_match_data="2C"
-  />
-
   <apn carrier="Rogers LTE"
       mcc="302"
       mnc="720"
@@ -7034,28 +7277,6 @@
       mvno_type="imsi"
   />
 
-  <apn carrier="Chatr Tethering"
-      mcc="302"
-      mnc="720"
-      apn="chatrisp.apn"
-      type="dun"
-      mvno_type="imsi"
-      mvno_match_data="302720x94"
-      protocol="IPV4V6"
-      roaming_protocol="IP"
-  />
-
-  <apn carrier="Tbaytel Tethering"
-      mcc="302"
-      mnc="720"
-      apn="ltedata.apn"
-      type="dun"
-      protocol="IPV4V6"
-      roaming_protocol="IP"
-      mvno_type="gid"
-      mvno_match_data="BA"
-  />
-
   <apn carrier="Tbaytel Internet"
       mnc="720"
       mcc="302"
@@ -7070,17 +7291,6 @@
       mvno_match_data="BA"
   />
 
-  <apn carrier="Cityfone Tethering"
-      mcc="302"
-      mnc="720"
-      apn="ltedata.apn"
-      type="dun"
-      protocol="IPV4V6"
-      roaming_protocol="IP"
-      mvno_type="spn"
-      mvno_match_data="CITYFONE"
-  />
-
   <apn carrier="Cityfone Internet"
       mnc="720"
       mcc="302"
@@ -7093,31 +7303,6 @@
       mmsport="80"
       mvno_type="spn"
       mvno_match_data="CITYFONE"
-  />
-
-  <apn carrier="Rogers Tethering"
-      mcc="302"
-      mnc="720"
-      apn="ltedata.apn"
-      type="dun"
-      mvno_match_data="ROGERS"
-      mvno_type="spn"
-      protocol="IPV4V6"
-      roaming_protocol="IP"
-  />
-
-  <apn carrier="Rogers Internet"
-      mcc="302"
-      mnc="720"
-      apn="ltemobile.apn"
-      type="default,mms,agps,supl,fota,hipri"
-      mmsproxy="mmsproxy.rogers.com"
-      mmsc="http://mms.gprs.rogers.com"
-      mmsport="80"
-      mvno_match_data="ROGERS"
-      mvno_type="spn"
-      protocol="IPV4V6"
-      roaming_protocol="IP"
   />
 
   <apn carrier="SaskTel"
@@ -8684,26 +8869,12 @@
       type="default,supl"
   />
 
-  <!-- Need two APNs for CDMA technologies: a default that is used normally -->
-  <!-- and a second APN to be used when DUN is required.  Even though the -->
-  <!-- parameters appear the same, the profileID sent to the radio when requesting -->
-  <!-- a DUN connection will be different -->
   <!-- 1xRTT - CDMA -->
   <apn carrier="Sprint"
       mcc="310"
       mnc="120"
       apn="sprint"
       type="default,supl,mms,ims,cbs"
-      mmsc="http://mms.sprintpcs.com"
-      mmsproxy="68.28.31.7"
-      mmsport="80"
-      bearer="6"
-  />
-  <apn carrier="Sprint"
-      mcc="310"
-      mnc="120"
-      apn="sprint"
-      type="default,supl,mms,ims,cbs,dun"
       mmsc="http://mms.sprintpcs.com"
       mmsproxy="68.28.31.7"
       mmsport="80"
@@ -8721,16 +8892,6 @@
       mmsport="80"
       bearer="7"
   />
-  <apn carrier="Sprint"
-      mcc="310"
-      mnc="120"
-      apn="sprint"
-      type="default,supl,mms,ims,cbs,dun"
-      mmsc="http://mms.sprintpcs.com"
-      mmsproxy="68.28.31.7"
-      mmsport="80"
-      bearer="7"
-  />
 
   <!-- EVDO_A - CDMA -->
   <apn carrier="Sprint"
@@ -8738,16 +8899,6 @@
       mnc="120"
       apn="sprint"
       type="default,supl,mms,ims,cbs"
-      mmsc="http://mms.sprintpcs.com"
-      mmsproxy="68.28.31.7"
-      mmsport="80"
-      bearer="8"
-  />
-  <apn carrier="Sprint"
-      mcc="310"
-      mnc="120"
-      apn="sprint"
-      type="default,supl,mms,ims,cbs,dun"
       mmsc="http://mms.sprintpcs.com"
       mmsproxy="68.28.31.7"
       mmsport="80"
@@ -8765,16 +8916,6 @@
       mmsport="80"
       bearer="12"
   />
-  <apn carrier="Sprint"
-      mcc="310"
-      mnc="120"
-      apn="sprint"
-      type="default,supl,mms,ims,cbs,dun"
-      mmsc="http://mms.sprintpcs.com"
-      mmsproxy="68.28.31.7"
-      mmsport="80"
-      bearer="12"
-  />
 
   <!-- IS95A - CDMA -->
   <apn carrier="Sprint"
@@ -8782,16 +8923,6 @@
       mnc="120"
       apn="sprint"
       type="default,supl,mms,ims,cbs"
-      mmsc="http://mms.sprintpcs.com"
-      mmsproxy="68.28.31.7"
-      mmsport="80"
-      bearer="4"
-  />
-  <apn carrier="Sprint"
-      mcc="310"
-      mnc="120"
-      apn="sprint"
-      type="default,supl,mms,ims,cbs,dun"
       mmsc="http://mms.sprintpcs.com"
       mmsproxy="68.28.31.7"
       mmsport="80"
@@ -8809,17 +8940,6 @@
       mmsport="80"
       bearer="5"
   />
-  <apn carrier="Sprint"
-      mcc="310"
-      mnc="120"
-      apn="sprint"
-      type="default,supl,mms,ims,cbs,dun"
-      mmsc="http://mms.sprintpcs.com"
-      mmsproxy="68.28.31.7"
-      mmsport="80"
-      bearer="5"
-  />
-
 
   <!-- this APN will be deleted and replaced by a new ia APN by the HFA provisioning process.
        This is just a bootstrap APN to enable HFA -->
@@ -17658,20 +17778,7 @@
       mmsc="http://mmc.digiceltt.com/servlets/mms"
       mmsproxy="172.20.6.12"
       mmsport="8080"
-      type="default,supl,mms"
-  />
-
-  <apn carrier="French West Indies:Digicel:Modem"
-      mcc="340"
-      mnc="20"
-      apn="wap.digicelfr.com"
-      port="8080"
-      authtype="1"
-      proxy="172.20.6.12"
-      mmsc="http://wapdigicel.com"
-      type="dun"
-      user="wap"
-      password="wap"
+      type="default,mms,supl"
   />
 
   <apn carrier="Lime Internet Postpaid"
@@ -18889,6 +18996,13 @@
       mmsproxy="195.47.255.7"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="ALTEL INTERNET"
+      mcc="401"
+      mnc="07"
+      apn="internet"
+      type="default,supl"
   />
 
   <apn carrier="Tele2 Internet"
@@ -25907,15 +26021,7 @@
       mcc="419"
       mnc="03"
       apn="action.wataniya.com"
-      type="default,supl"
-  />
-
-  <apn carrier="WAPAction"
-      mcc="419"
-      mnc="03"
-      apn="wap.wataniya.com"
-      proxy="194.126.53.64"
-      port="8080"
+      authtype="0"
       type="default,supl"
   />
 
@@ -25926,6 +26032,7 @@
       mmsc="http://action.wataniya.com"
       mmsproxy="194.126.53.64"
       mmsport="8080"
+      authtype="0"
       type="mms"
   />
 
@@ -26191,17 +26298,9 @@
       mnc="01"
       apn="uwap.orange.co.il"
       mmsc="http://192.168.220.15/servlets/mms"
+      mmsproxy="192.118.11.55"
       mmsport="8080"
       type="default,supl,mms"
-  />
-
-  <apn carrier="3G DUN"
-      mcc="425"
-      mnc="01"
-      apn="modem.orange.net.il"
-      type="dun"
-      authtype="0"
-      port="8080"
   />
 
   <apn carrier="Cellcom Internet"
@@ -26289,14 +26388,6 @@
       type="default,supl"
   />
 
-  <apn carrier="PC HOT mobile"
-      mcc="425"
-      mnc="07"
-      apn="pc.hotm"
-      type="dun"
-      authtype="0"
-  />
-
   <apn carrier="MMS HOT mobile"
       mcc="425"
       mnc="07"
@@ -26333,7 +26424,7 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Alon Internet"
+  <apn carrier="YouPhone"
       mcc="425"
       mnc="14"
       apn="data.youphone.co.il"
@@ -26633,12 +26724,10 @@
       type="mms"
   />
 
-  <apn carrier="Irancell-GPRS"
+  <apn carrier="Irancell-Internet"
       mcc="432"
       mnc="35"
       apn="mtnirancell"
-      proxy="10.131.26.138"
-      port="8080"
       type="default,supl"
   />
 
@@ -26949,12 +27038,12 @@
       mcc="440"
       mnc="20"
       apn="plus.acs.jp"
-      user="plusw6q9tattkmpk"
-      password="msfbbam83bsdetxb"
-      mmsproxy="andmms.plusacs.ne.jp"
+      user="ym"
+      password="ym"
+      mmsproxy="andmms.plus.acs.ne.jp"
       mmsport="8080"
       mmsc="http://mms-s"
-      type="default,mms,supl"
+      type="default,mms,supl,hipri"
       authtype="2"
   />
 
@@ -27286,7 +27375,7 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="one2free"
+  <apn carrier="csl"
       mcc="454"
       mnc="00"
       apn="mobile"
@@ -27300,7 +27389,7 @@
   <apn carrier="NWMOBILE"
       mcc="454"
       mnc="00"
-      apn="NWMOBILE"
+      apn="nwmobile"
       mmsproxy="192.168.59.61"
       mmsport="8080"
       mmsc="http://192.168.58.171:8002"
@@ -27319,7 +27408,7 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="one2free"
+  <apn carrier="csl"
       mcc="454"
       mnc="02"
       apn="mobile"
@@ -27333,7 +27422,7 @@
   <apn carrier="NWMOBILE"
       mcc="454"
       mnc="02"
-      apn="NWMOBILE"
+      apn="nwmobile"
       mmsproxy="192.168.59.61"
       mmsport="8080"
       mmsc="http://192.168.58.171:8002"
@@ -27400,7 +27489,7 @@
       type="default,supl"
   />
 
-  <apn carrier="one2free"
+  <apn carrier="csl"
       mcc="454"
       mnc="10"
       apn="hkcsl"
@@ -27452,14 +27541,14 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="PCCW-HKT"
+  <apn carrier="csl"
       mcc="454"
       mnc="16"
-      apn="pccw"
-      mmsc="http://3gmms.pccwmobile.com:8080/was"
+      apn="PCCW"
+      mmsc="http://mms.hkcsl.com:8080"
       mmsproxy="10.140.14.10"
       mmsport="8080"
-      authtype="1"
+      authtype="3"
       type="default,supl,mms"
   />
 
@@ -27485,7 +27574,7 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="one2free"
+  <apn carrier="csl"
       mcc="454"
       mnc="18"
       apn="mobile"
@@ -27499,7 +27588,7 @@
   <apn carrier="NWMOBILE"
       mcc="454"
       mnc="18"
-      apn="NWMOBILE"
+      apn="nwmobile"
       mmsproxy="192.168.59.61"
       mmsport="8080"
       mmsc="http://192.168.58.171:8002"
@@ -27507,14 +27596,14 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="PCCW-HKT"
+  <apn carrier="csl"
       mcc="454"
       mnc="19"
-      apn="pccw"
-      mmsc="http://3gmms.pccwmobile.com:8080/was"
+      apn="PCCW"
+      mmsc="http://mms.hkcsl.com:8080"
       mmsproxy="10.140.14.10"
       mmsport="8080"
-      authtype="1"
+      authtype="3"
       type="default,supl,mms"
   />
 
@@ -27840,6 +27929,15 @@
       type="default,supl"
   />
 
+  <apn carrier="GT Internet"
+      mcc="466"
+      mnc="05"
+      apn="gtnet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
   <apn carrier="和信電訊(KGT-Online) (Internet)"
       mcc="466"
       mnc="88"
@@ -27857,17 +27955,17 @@
       type="mms"
   />
 
-  <apn carrier="VIBO-vibo"
-      mcc="466"
-      mnc="89"
-      apn="vibo"
-      type="default,supl"
-  />
-
   <apn carrier="T Star-internet"
       mcc="466"
       mnc="89"
       apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="VIBO-vibo"
+      mcc="466"
+      mnc="89"
+      apn="vibo"
       type="default,supl"
   />
 
@@ -28195,20 +28293,6 @@
       type="default,supl"
   />
 
-  <apn carrier="Optus Business Mobile Broadband"
-      mcc="505"
-      mnc="02"
-      apn="yesbusiness"
-      type="default,supl"
-  />
-
-  <apn carrier="Optus Internet"
-      mcc="505"
-      mnc="02"
-      apn="internet"
-      type="default"
-  />
-
   <apn carrier="Optus MMS"
       mcc="505"
       mnc="02"
@@ -28231,10 +28315,8 @@
   <apn carrier="Virgin Internet"
       mcc="505"
       mnc="02"
-      apn="virgininternet"
-      type="default"
-      proxy="202.139.83.152"
-      port="8070"
+      apn="yesinternet"
+      type="default,supl"
       mvno_match_data="505029"
       mvno_type="imsi"
   />
@@ -28242,11 +28324,11 @@
   <apn carrier="Virgin MMS"
       mcc="505"
       mnc="02"
-      apn="virginmms"
-      type="mms"
-      mmsc="http://mms.virginvibe.com.au:8002"
-      mmsproxy="202.139.83.152"
+      apn="mms"
+      mmsc="http://mmsc.optus.com.au:8002/"
+      mmsproxy="61.88.190.10"
       mmsport="8070"
+      type="mms"
       mvno_match_data="505029"
       mvno_type="imsi"
   />
@@ -28466,7 +28548,7 @@
       authtype="1"
   />
 
-  <apn carrier="TSEL-SNS"
+  <apn carrier="internet"
       mcc="510"
       mnc="10"
       apn="internet"
@@ -28567,8 +28649,6 @@
       user="3gprs"
       password="3gprs"
       authtype="1"
-      proxy="10.4.0.10"
-      port="3128"
       type="default,supl"
   />
 
@@ -28953,18 +29033,6 @@
       type="default,supl"
   />
 
-  <apn carrier="M1 WAP"
-      mcc="525"
-      mnc="03"
-      apn="miworld"
-      user="65"
-      password="user123"
-      proxy="172.16.1.23"
-      port="8081"
-      authtype="1"
-      type="default,supl"
-  />
-
   <apn carrier="M1 MMS(3G)"
       mcc="525"
       mnc="03"
@@ -28982,18 +29050,6 @@
       mcc="525"
       mnc="04"
       apn="sunsurf"
-      type="default,supl"
-  />
-
-  <apn carrier="M1 WAP"
-      mcc="525"
-      mnc="04"
-      apn="miworld"
-      user="65"
-      password="user123"
-      authtype="1"
-      proxy="172.16.1.23"
-      port="8081"
       type="default,supl"
   />
 
@@ -29027,6 +29083,17 @@
       type="mms"
   />
 
+  <apn carrier="GT Roaming"
+      mcc="525"
+      mnc="05"
+      apn="gtnet"
+      mvno_type="imsi"
+      mvno_match_data="525053095xxxxxx"
+      type="default,supl"
+      roaming_protocol="IPV4V6"
+      protocol="IPV4V6"
+  />
+
   <apn carrier="B-Mobile"
       mcc="528"
       mnc="02"
@@ -29058,30 +29125,71 @@
       type="default,supl"
   />
 
-  <apn carrier="TelecomData"
+  <apn carrier="Data"
       mcc="530"
       mnc="05"
-      apn="wap.telecom.co.nz"
+      apn="Internet"
       type="default,supl"
   />
 
-  <apn carrier="TelecomContent"
+  <apn carrier="Content"
       mcc="530"
       mnc="05"
-      apn="wap.telecom.co.nz"
+      apn="Internet"
       proxy="210.55.11.73"
       port="80"
       type="default,supl"
   />
 
-  <apn carrier="TelecomMMS"
+  <apn carrier="MMS"
       mcc="530"
       mnc="05"
-      apn="wap.telecom.co.nz"
+      apn="Internet"
       mmsc="http://lsmmsc.xtra.co.nz"
       mmsproxy="210.55.11.73"
       mmsport="80"
       type="mms"
+  />
+
+  <apn carrier="Default"
+      mcc="530"
+      mnc="05"
+      apn="wapaccess.co.nz"
+      type="default,supl"
+      mvno_match_data="53005204"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Content"
+      mcc="530"
+      mnc="05"
+      apn="wapaccess.co.nz"
+      proxy="210.55.11.73"
+      port="80"
+      type="default,supl"
+      mvno_match_data="53005204"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Data"
+      mcc="530"
+      mnc="05"
+      apn="wapaccess.co.nz"
+      type="default,supl"
+      mvno_match_data="53005204"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="MMS"
+      mcc="530"
+      mnc="05"
+      apn="wapaccess.co.nz"
+      mmsc="http://mms.mmsaccess.co.nz"
+      mmsproxy="210.55.11.73"
+      mmsport="80"
+      type="mms"
+      mvno_match_data="53005204"
+      mvno_type="imsi"
   />
 
   <apn carrier="2Degrees Internet"

@@ -31,11 +31,12 @@
 #define __QCAMERA_TYPES_H__
 
 #include <stdint.h>
+#include <string.h>
 #include <pthread.h>
 #include <inttypes.h>
 #include <media/msmb_camera.h>
 
-#define CAM_MAX_NUM_BUFS_PER_STREAM 24
+#define CAM_MAX_NUM_BUFS_PER_STREAM 64
 #define MAX_METADATA_PAYLOAD_SIZE 1024
 
 #define CEILING32(X) (((X) + 0x0001F) & 0xFFFFFFE0)
@@ -50,7 +51,7 @@
 #define MAX_STREAM_NUM_IN_BUNDLE 4
 #define MAX_NUM_STREAMS          8
 #define MAX_TEST_PATTERN_CNT     8
-#define MAX_AVAILABLE_CAPABILITIES 4
+#define MAX_AVAILABLE_CAPABILITIES 6
 
 #define GPS_PROCESSING_METHOD_SIZE 33
 
@@ -1096,6 +1097,9 @@ typedef enum {
     /* DNG file support */
     CAM_INTF_META_PROFILE_TONE_CURVE,
     CAM_INTF_META_NEUTRAL_COL_POINT,
+
+    CAM_INTF_META_FRAMES_STALLED,
+    /* Buffer Circulation stopped */
 
     CAM_INTF_PARM_MAX
 } cam_intf_parm_type_t;

@@ -49,12 +49,15 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml \
-    frameworks/av/media/libstagefright/data/media_codecs_ffmpeg.xml:system/etc/media_codecs_ffmpeg.xml \
     device/lge/hammerhead/media_codecs.xml:system/etc/media_codecs.xml \
+    device/lge/hammerhead/media_codecs_performance.xml:system/etc/media_codecs_performance.xml \
     device/lge/hammerhead/media_profiles.xml:system/etc/media_profiles.xml
 
 PRODUCT_COPY_FILES += \
     device/lge/hammerhead/bcmdhd.cal:system/etc/wifi/bcmdhd.cal
+
+PRODUCT_COPY_FILES += \
+    device/lge/hammerhead/bluetooth/BCM4339_003.001.009.0079.0339.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335c0.hcd
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -80,7 +83,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:system/etc/permissions/android.hardware.audio.low_latency.xml \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
     frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml \
-    frameworks/native/data/etc/android.hardware.ethernet.xml:system/etc/permissions/android.hardware.ethernet.xml
+    frameworks/native/data/etc/android.software.midi.xml:system/etc/permissions/android.software.midi.xml
 
 # For GPS
 PRODUCT_COPY_FILES += \
@@ -100,11 +103,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/hammerhead/spn-conf.xml:system/etc/spn-conf.xml
 
-# This device is xhdpi.  However the platform doesn't
-# currently contain all of the bitmaps at xhdpi density so
-# we do this little trick to fall back to the hdpi version
-# if the xhdpi doesn't exist.
-PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
+PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 PRODUCT_CHARACTERISTICS := nosdcard
@@ -218,6 +217,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bdAddrLoader
 
+# I/O Scheduler
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.io.scheduler=cfq
+
 # QCOM Perf lib
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=/vendor/lib/libqc-opt.so
@@ -265,7 +268,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qti.sensors.georv=true \
     ro.qti.sensors.smgr_mag_cal_en=true \
     ro.qti.sensors.step_detector=true \
-    ro.qti.sensors.step_counter=true
+    ro.qti.sensors.step_counter=true \
+    ro.qti.sensors.tap=false \
+    ro.qti.sensors.facing=false \
+    ro.qti.sensors.tilt=false \
+    ro.qti.sensors.amd=false \
+    ro.qti.sensors.rmd=false \
+    ro.qti.sensors.vmd=false \
+    ro.qti.sensors.pedometer=false \
+    ro.qti.sensors.pam=false \
+    ro.qti.sdk.sensors.gestures=false
 
 # Enable some debug messages by default
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -291,6 +303,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # LTE, CDMA, GSM/WCDMA
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ril.force_eri_from_xml=true \
     ro.telephony.default_network=10 \
     telephony.lteOnCdmaDevice=1 \
     persist.radio.mode_pref_nv10=1
@@ -305,6 +318,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # If data_no_toggle is 1 then active and dormancy enable at all times.
 # If data_no_toggle is 0 there are no reports if the screen is off.
+# Leaving this property unset defaults to '0'
+# Due to RIL changes, setting this to 1 now enables toggling of limited
+# system indications and does not impact data state changes.
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.data_no_toggle=1
 
@@ -317,6 +333,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.fluence.voicerec=false \
     persist.audio.fluence.speaker=false
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.vc_call_vol_steps=6
+
 # Setup custom emergency number list based on the MCC. This is needed by RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.custom_ecc=1
@@ -324,10 +343,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # set default USB configuration
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
-
-# set USB OTG enabled to add support for USB storage type
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.isUsbOtgEnabled=1
 
 # Request modem to send PLMN name always irrespective
 # of display condition in EFSPN.
@@ -350,6 +365,13 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.input.noresample=1
 
+# Reduce client buffer size for fast audio output tracks
+PRODUCT_PROPERTY_OVERRIDES += \
+    af.fast_track_multiplier=1
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dex2oat-swap=false
+
 # Modem debugger
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES += \
@@ -362,9 +384,10 @@ PRODUCT_COPY_FILES += \
     device/lge/hammerhead/init.hammerhead.diag.rc.user:root/init.hammerhead.diag.rc
 endif
 
+$(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4339/device-bcm.mk)
+
 # setup dalvik vm configs.
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 $(call inherit-product-if-exists, hardware/qcom/msm8x74/msm8x74.mk)
 $(call inherit-product-if-exists, vendor/qcom/gpu/msm8x74/msm8x74-gpu-vendor.mk)
-$(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4339/device-bcm.mk)
